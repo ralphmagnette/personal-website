@@ -1,570 +1,939 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-  
-<head>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+  <!--<![endif]-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<meta name="description" content="persoonlijke website">
-<meta name="author" content="Ralph Magnette">
+    <meta name="description" content="persoonlijke website" />
+    <meta name="author" content="Ralph Magnette" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-<title>Ralph Magnette</title>
+    <title>Ralph Magnette</title>
 
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-<!-- /Google Fonts -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- /Google Fonts -->
 
-<!-- Styles -->
-<link type="text/css" rel="stylesheet" href="css/base.css?ver=4" />
-<link type="text/css" rel="stylesheet" href="css/magnific.css?ver=4" />
-<link type="text/css" rel="stylesheet" href="css/animated-headlines.css?ver=4" />
-<link type="text/css" rel="stylesheet" href="css/style.css?ver=4" />
-<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-<!-- /Styles -->
+    <!-- Styles -->
+    <link type="text/css" rel="stylesheet" href="css/base.css?ver=4" />
+    <link type="text/css" rel="stylesheet" href="css/magnific.css?ver=4" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/animated-headlines.css?ver=4"
+    />
+    <link type="text/css" rel="stylesheet" href="css/style.css?ver=4" />
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <![endif]-->
+    <!-- /Styles -->
+  </head>
 
-</head>
+  <body>
+    <div class="deebo_fn_main">
+      <!-- Light/Dark Switcher -->
+      <div class="deebo_fn_switcher_wrap">
+        <label>
+          <span class="light">Light</span>
+          <span class="checkbox_wrap">
+            <input type="checkbox" id="skin_switcher" checked />
+            <span class="slider round"></span>
+          </span>
+          <span class="dark">Dark</span>
+        </label>
+      </div>
+      <!-- /Light/Dark Switcher -->
 
-<body>
+      <!-- Overlay -->
+      <div class="right_bar_overlay"></div>
+      <!--/ Overlay -->
 
-<div class="deebo_fn_main">
-			
-	<!-- Light/Dark Switcher -->
-	<div class="deebo_fn_switcher_wrap">
-		<label>
-			<span class="light">Light</span>
-				<span class="checkbox_wrap">
-					<input type="checkbox" id="skin_switcher" checked>
-					<span class="slider round"></span>
-				</span>
-			<span class="dark">Dark</span>
-		</label>
-	</div>
-	<!-- /Light/Dark Switcher -->
-	
-	<!-- Overlay -->
-	<div class="right_bar_overlay"></div>
-	<!--/ Overlay -->
+      <!-- MODALBOX -->
+      <div class="deebo_fn_modalbox">
+        <a class="extra_closer" href="#"></a>
+        <div class="box_inner">
+          <a class="closer" href="#"><span></span></a>
+          <div class="modal_content">
+            <div class="modal_in">
+              <!-- Content comes from JS -->
+            </div>
 
-	<!-- MODALBOX -->
-	<div class="deebo_fn_modalbox">
-		<a class="extra_closer" href="#"></a>
-		<div class="box_inner">
-			<a class="closer" href="#"><span></span></a>
-			<div class="modal_content">
+            <div class="fn__nav" data-from="" data-index="">
+              <a href="#" class="prev">
+                <span class="text">Prev</span>
+                <span class="arrow_wrapper"><span class="arrow"></span></span>
+              </a>
+              <a href="#" class="next">
+                <span class="text">Next</span>
+                <span class="arrow_wrapper"><span class="arrow"></span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /MODALBOX -->
 
-				<div class="modal_in">
-					<!-- Content comes from JS -->
-				</div>
+      <!-- Overlay -->
+      <div class="right_bar_overlay"></div>
+      <!--/ Overlay -->
 
-				<div class="fn__nav" data-from="" data-index="">
-					<a href="#" class="prev">
-						<span class="text">Prev</span>
-						<span class="arrow_wrapper"><span class="arrow"></span></span>
-					</a>
-					<a href="#" class="next">
-						<span class="text">Next</span>
-						<span class="arrow_wrapper"><span class="arrow"></span></span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /MODALBOX --> 
+      <!-- MODALBOX -->
+      <div class="deebo_fn_modalbox">
+        <a class="extra_closer" href="#"></a>
+        <div class="box_inner">
+          <a class="closer" href="#"><span></span></a>
+          <div class="modal_content">
+            <div class="modal_in">
+              <!-- Content comes from JS -->
+            </div>
 
-	<!-- Overlay -->
-	<div class="right_bar_overlay"></div>
-	<!--/ Overlay -->
+            <div class="fn__nav" data-from="" data-index="">
+              <a href="#" class="prev">
+                <span class="text">Prev</span>
+                <span class="arrow_wrapper"><span class="arrow"></span></span>
+              </a>
+              <a href="#" class="next">
+                <span class="text">Next</span>
+                <span class="arrow_wrapper"><span class="arrow"></span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /MODALBOX -->
 
-	<!-- MODALBOX -->
-	<div class="deebo_fn_modalbox">
-		<a class="extra_closer" href="#"></a>
-		<div class="box_inner">
-			<a class="closer" href="#"><span></span></a>
-			<div class="modal_content">
+      <!-- Modal CV Card -->
+      <div class="deebo_fn_cv">
+        <!-- CV Inner -->
+        <div class="deebo_fn__cv">
+          <!-- CV Background -->
+          <div class="cv__bg"></div>
+          <div class="cv__bg2"></div>
+          <!-- /CV Background -->
 
-				<div class="modal_in">
-					<!-- Content comes from JS -->
-				</div>
+          <!-- CV Left Side -->
+          <div class="cv__header">
+            <div class="in">
+              <div class="avatar">
+                <img src="img/header/profile.jpg" alt="profile" />
+              </div>
+              <h3><span>Ralph</span> Magnette</h3>
+              <p class="quote">
+                Een gedreven en leergierige jongeman die een uitdaging niet uit
+                de weg gaat. Ik waardeer het om een ​​project af te ronden en
+                het resultaat te zien, daarom doe ik vaak een stap extra voor
+                projecten, ook al levert het me misschien meer werk op dan
+                oorspronkelijk gepland.
+              </p>
+              <ul class="contact_info">
+                <li>
+                  <span class="icon"
+                    ><img src="svg/location.svg" alt="" class="fn__svg"
+                  /></span>
+                  <p>Landweg 14B, 3640 Kinrooi</p>
+                </li>
+                <li>
+                  <span class="icon"
+                    ><img src="svg/call.svg" alt="" class="fn__svg"
+                  /></span>
+                  <p>(+32) 471296237</p>
+                </li>
+                <li>
+                  <span class="icon"
+                    ><img src="svg/message.svg" alt="" class="fn__svg"
+                  /></span>
+                  <p>ralphmagnette@hotmail.com</p>
+                </li>
+              </ul>
+              <ul class="social">
+                <li>
+                  <a
+                    href="https://www.facebook.com/RalphMagnette"
+                    target="_blank"
+                    title="facebook.com"
+                  >
+                    <img
+                      class="fn__svg"
+                      src="svg/facebook-logo.svg"
+                      alt="facebook.com"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/ralphmagnette/"
+                    target="_blank"
+                    title="instagram.com"
+                  >
+                    <img
+                      class="fn__svg"
+                      src="svg/instagram.svg"
+                      alt="instagram.com"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/ralphmagnettee"
+                    target="_blank"
+                    title="twitter.com"
+                  >
+                    <img
+                      class="fn__svg"
+                      src="svg/twitter.svg"
+                      alt="twitter.com"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UC0mLbU4ZQhloylY42Eyj1Tw"
+                    target="_blank"
+                    title="youtube.com"
+                  >
+                    <img
+                      class="fn__svg"
+                      src="svg/youtube.svg"
+                      alt="youtube.com"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/ralphmagnette/"
+                    target="_blank"
+                    title="linkedincom"
+                  >
+                    <img
+                      class="fn__svg"
+                      src="svg/linkedin.svg"
+                      alt="linkedin.com"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /CV Left Side -->
 
-				<div class="fn__nav" data-from="" data-index="">
-					<a href="#" class="prev">
-						<span class="text">Prev</span>
-						<span class="arrow_wrapper"><span class="arrow"></span></span>
-					</a>
-					<a href="#" class="next">
-						<span class="text">Next</span>
-						<span class="arrow_wrapper"><span class="arrow"></span></span>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /MODALBOX --> 
+          <!-- /CV Content Side -->
+          <div class="cv__content">
+            <section id="hero-header" class="section_header">
+              <div class="content">
+                <div class="left_hero_header">
+                  <div class="circle">
+                    <div
+                      class="bg_img"
+                      data-bg-img="img/header/profile.jpg"
+                    ></div>
+                    <img src="img/header/profile.jpg" alt="" />
+                    <div class="circle_holder_blue"><span></span></div>
+                    <div class="circle_holder_orange"><span></span></div>
+                    <div class="lines">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="right_hero_header">
+                  <div class="my_self">
+                    <h4>Hallo! Ik ben een</h4>
+                    <h2>
+                      <!-- It is animation title. You can change animation variation by changing extra class to one of next classes: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push. cd-headline class can not be removed.  -->
+                      <span class="cd-headline clip">
+                        <span class="cd-words-wrapper">
+                          <b class="is-visible">Student</b>
+                          <b>Developer</b>
+                        </span>
+                      </span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-	<!-- Modal CV Card -->
-	<div class="deebo_fn_cv">
+            <!-- CV: Biography Section -->
+            <section id="cv_biography">
+              <div class="section_title">
+                <h3>Biografie</h3>
+              </div>
+              <p>
+                Ik ben een Fullstack developer die in juni afstudeert van de
+                Hogeschool PXL. Ik heb een passie voor programmeren. Ik hou
+                ervan om met nieuwe mensen te werken en nieuwe projecten op te
+                starten. Nieuwe mensen betekent ook nieuwe ervaringen.
+              </p>
+              <div class="fn_cs_info_items">
+                <ul>
+                  <li>
+                    <p>Naam: <span>Ralph Magnette</span></p>
+                  </li>
+                  <li>
+                    <p>Geboortedatum: <span>19 juni 1997</span></p>
+                  </li>
+                  <li>
+                    <p>Talen: <span>Nederlands, Engels</span></p>
+                  </li>
+                  <li>
+                    <p>Leeftijd: <span>24 jaar</span></p>
+                  </li>
+                  <li>
+                    <p>Nationaliteit: <span>Belg</span></p>
+                  </li>
+                  <li>
+                    <p>Adres: <span>Landweg 14B, 3640 Kinrooi</span></p>
+                  </li>
+                  <li>
+                    <p>Whatsapp: <span>Beschikbaar</span></p>
+                  </li>
+                  <li>
+                    <p>
+                      Telefoon:
+                      <span
+                        ><a href="tel:(+32) 0471296237"
+                          >(+32) 0471296237</a
+                        ></span
+                      >
+                    </p>
+                  </li>
+                  <li>
+                    <p>Discord: <span>SouthWardHealer#2807</span></p>
+                  </li>
+                  <li>
+                    <p>
+                      Email:
+                      <span
+                        ><a href="mailto:ralphmagnette@hotmail.com"
+                          >ralphmagnette@hotmail.com</a
+                        ></span
+                      >
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- /CV: Biography Section -->
 
-		<!-- CV Inner -->
-		<div class="deebo_fn__cv">
+            <!-- CV: Education Section -->
+            <section id="cv_education">
+              <div class="section_title">
+                <h3>Opleiding</h3>
+              </div>
+              <div class="fn_cs_boxed_list">
+                <ul>
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>Hogeschool PXL</h5>
+                        <span>( 2019 — 2022 )</span>
+                      </div>
+                      <h2>Applicatie ontwikkeling</h2>
+                      <h3>Bachelor diploma</h3>
+                      <p>
+                        Definieert onderwerpen als C#, Java, Webdesign, Big Data
+                        en Project- en Informatiebeheer.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>PCVO</h5>
+                        <span>( 2017 — 2019 )</span>
+                      </div>
+                      <h2>Netwerk en systeembeheer</h2>
+                      <h3>Graduaat diploma</h3>
+                      <p>
+                        Definieert onderwerpen als C#, Cisco, Windows en Linux
+                        server, Web Design, Big Data.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>TA Maaseik</h5>
+                        <span>( 2009 — 2016 )</span>
+                      </div>
+                      <h2>Elektromechanica</h2>
+                      <h3>Middelbaar diploma</h3>
+                      <p>
+                        Definieert onderwerpen als Elektriciteit en Elektronica,
+                        Wiskunde, Geschiedenis, Nederlands, Frans, Engels.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- /CV: Education Section -->
 
-			<!-- CV Background -->
-			<div class="cv__bg"></div>
-			<div class="cv__bg2"></div>
-			<!-- /CV Background -->
+            <!-- CV: Experience Section -->
+            <section id="cv_experience">
+              <div class="section_title">
+                <h3>Ervaring</h3>
+              </div>
+              <div class="fn_cs_boxed_list">
+                <ul>
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>Gift2Give</h5>
+                        <span>( 07/2021 — 08/2021 )</span>
+                      </div>
+                      <h3>Junior Fullstack Developer</h3>
+                      <p>
+                        Nieuwe features implementeren voor de website van
+                        Gift2Give, code schrijven in frontend en backend.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>Avensus</h5>
+                        <span>( 07/2020 — 06/2021 )</span>
+                      </div>
+                      <h3>Junior Support Engineer</h3>
+                      <p>
+                        Netwerk – Systeem engineer, klanten helpen via computer
+                        en telefoon.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item">
+                      <div class="item_top">
+                        <h5>Client-ICT Groep</h5>
+                        <span>( 11/2017 — 08/2019 )</span>
+                      </div>
+                      <h3>Junior Support Engineer</h3>
+                      <p>
+                        Netwerk – Systeem engineer, klanten helpen via computer
+                        en telefoon.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- /CV: Experience Section -->
 
-			<!-- CV Left Side -->
-			<div class="cv__header">
-				<div class="in">
-					<div class="avatar">
-						<img src="img/header/profile.jpg" alt="profile">
-					</div>
-					<h3><span>Ralph</span> Magnette</h3>
-					<p class="quote">
-						Een gedreven en leergierige jongeman die een uitdaging niet uit de weg gaat. Ik waardeer het om een ​​project af te ronden en het resultaat te zien, daarom doe ik vaak een stap extra voor projecten, ook al levert het me misschien meer werk op dan oorspronkelijk gepland.</p>
-					<ul class="contact_info">
-						<li>
-							<span class="icon"><img src="svg/location.svg" alt="" class="fn__svg"></span>
-							<p>Landweg 14B, 3640 Kinrooi</p>
-						</li>
-						<li>
-							<span class="icon"><img src="svg/call.svg" alt="" class="fn__svg"></span>
-							<p>(+32) 471296237</p>
-						</li>
-						<li>
-							<span class="icon"><img src="svg/message.svg" alt="" class="fn__svg"></span>
-							<p>ralphmagnette@hotmail.com</p>
-						</li>
-					</ul>
-					<ul class="social">
-						<li>
-							<a href="https://www.facebook.com/RalphMagnette" target="_blank" title="facebook.com">
-								<img class="fn__svg" src="svg/facebook-logo.svg" alt="facebook.com" />
-							</a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/ralphmagnette/" target="_blank" title="instagram.com">
-								<img class="fn__svg" src="svg/instagram.svg" alt="instagram.com" />
-							</a>
-						</li>
-						<li>
-							<a href="https://twitter.com/ralphmagnettee" target="_blank" title="twitter.com">
-								<img class="fn__svg" src="svg/twitter.svg" alt="twitter.com" />
-							</a>
-						</li>
-						<li>
-							<a href="https://www.youtube.com/channel/UC0mLbU4ZQhloylY42Eyj1Tw" target="_blank" title="youtube.com">
-								<img class="fn__svg" src="svg/youtube.svg" alt="youtube.com" />
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/ralphmagnette/" target="_blank" title="linkedincom">
-								<img class="fn__svg" src="svg/linkedin.svg" alt="linkedin.com" />
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- /CV Left Side -->
+            <!-- CV: Skills Section -->
+            <section id="cv_skills">
+              <div class="section_title">
+                <h3>Skills</h3>
+              </div>
+              <div class="fn_cs_progress_bar">
+                <div class="progress_item" data-value="90">
+                  <div class="item_in">
+                    <h3 class="progress_title">Java</h3>
+                    <span class="progress_percent"></span>
+                    <div class="progress_bg"></div>
+                  </div>
+                </div>
 
-			<!-- /CV Content Side -->
-			<div class="cv__content">
-				
-				<section id="hero-header" class="section_header">
-					<div class="content">
-						<div class="left_hero_header">
-							<div class="circle">
-								<div class="bg_img" data-bg-img="img/header/profile.jpg"></div>
-								<img src="img/header/profile.jpg" alt="" />
-								<div class="circle_holder_blue"><span></span></div>
-								<div class="circle_holder_orange"><span></span></div>
-								<div class="lines">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
-							</div>
-						</div>
-						<div class="right_hero_header">
-							<div class="my_self">
-								<h4>Hallo! Ik ben een</h4>
-								<h2>
-									<!-- It is animation title. You can change animation variation by changing extra class to one of next classes: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push. cd-headline class can not be removed.  -->
-									<span class="cd-headline clip">
-										<span class="cd-words-wrapper">
-										  <b class="is-visible">Student</b>
-										  <b>Developer</b>
-										</span>
-									</span>
-								</h2>
-							</div>
-						</div>
-					</div>
-				</section>
+                <div class="progress_item" data-value="85">
+                  <div class="item_in">
+                    <h3 class="progress_title">C#</h3>
+                    <span class="progress_percent"></span>
+                    <div class="progress_bg"></div>
+                  </div>
+                </div>
 
-				<!-- CV: Biography Section -->
-				<section id="cv_biography">
-					<div class="section_title">
-						<h3>Biografie</h3>
-					</div>
-					<p>Ik ben een Fullstack developer die in juni afstudeert van de Hogeschool PXL. Ik heb een passie voor programmeren. Ik hou ervan om met nieuwe mensen te werken en nieuwe projecten op te starten. Nieuwe mensen betekent ook nieuwe ervaringen.</p>
-					<div class="fn_cs_info_items">
-						<ul>
-							<li><p>Naam: <span>Ralph Magnette</span></p></li>
-							<li><p>Geboortedatum: <span>19 juni 1997</span></p></li>
-							<li><p>Talen: <span>Nederlands, Engels</span></p></li>
-							<li><p>Leeftijd: <span>24 jaar</span></p></li>
-							<li><p>Nationaliteit: <span>Belg</span></p></li>
-							<li><p>Adres: <span>Landweg 14B, 3640 Kinrooi</span></p></li>
-							<li><p>Whatsapp: <span>Beschikbaar</span></p></li>
-							<li><p>Telefoon: <span><a href="tel:(+32) 0471296237">(+32) 0471296237</a></span></p></li>
-							<li><p>Discord: <span>SouthWardHealer#2807</span></p></li>
-							<li><p>Email: <span><a href="mailto:ralphmagnette@hotmail.com">ralphmagnette@hotmail.com</a></span></p></li>
-						</ul>
-					</div>
-				</section>
-				<!-- /CV: Biography Section -->
+                <div class="progress_item" data-value="80">
+                  <div class="item_in">
+                    <h3 class="progress_title">TypeScript</h3>
+                    <span class="progress_percent"></span>
+                    <div class="progress_bg"></div>
+                  </div>
+                </div>
 
-				<!-- CV: Education Section -->
-				<section id="cv_education">
-					<div class="section_title">
-						<h3>Opleiding</h3>
-					</div>
-					<div class="fn_cs_boxed_list">
-						<ul>
-							<li>
-								<div class="item">
-									<div class="item_top">
-										<h5>Hogeschool PXL</h5>
-										<span>( 2019 — 2022 )</span>
-									</div>
-									<h2>Applicatie ontwikkeling</h2>
-									<h3>Bachelor diploma</h3>
-									<p>Definieert onderwerpen als C#, Java, Webdesign, Big Data en Project- en Informatiebeheer.</p>
-								</div>
-							</li>
-							<li>
-								<div class="item">
-									<div class="item_top">
-										<h5>PCVO</h5>
-										<span>( 2017 — 2019 )</span>
-									</div>
-									<h2>Netwerk en systeembeheer</h2>
-									<h3>Graduaat diploma</h3>
-									<p>Definieert onderwerpen als C#, Cisco, Windows en Linux server, Web Design, Big Data.</p>
-								</div>
-							</li>
-							<li>
-								<div class="item">
-									<div class="item_top">
-										<h5>TA Maaseik</h5>
-										<span>( 2009 — 2016 )</span>
-									</div>
-									<h2>Elektromechanica</h2>
-									<h3>Middelbaar diploma</h3>
-									<p>Definieert onderwerpen als Elektriciteit en Elektronica, Wiskunde, Geschiedenis, Nederlands, Frans, Engels.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<!-- /CV: Education Section -->
+                <div class="progress_item" data-value="70">
+                  <div class="item_in">
+                    <h3 class="progress_title">JavaScript</h3>
+                    <span class="progress_percent"></span>
+                    <div class="progress_bg"></div>
+                  </div>
+                </div>
 
-				<!-- CV: Experience Section -->
-				<section id="cv_experience">
-					<div class="section_title">
-						<h3>Ervaring</h3>
-					</div>
-					<div class="fn_cs_boxed_list">
-						<ul>
-							<li>
-								<div class="item">
-									<div class="item_top">
-										<h5>Gift2Give</h5>
-										<span>( 07/2021 — 08/2021  )</span>
-									</div>
-									<h3>Junior Fullstack Developer</h3>
-									<p>Nieuwe features implementeren voor de website van Gift2Give, code schrijven in frontend en backend.</p>
-								</div>
-							</li>
-							<li>
-								<div class="item">
-									<div class="item_top">
-										<h5>Avensus</h5>
-										<span>( 07/2020 — 06/2021 )</span>
-									</div>
-									<h3>Junior Support Engineer</h3>
-									<p>Netwerk – Systeem engineer, klanten helpen via computer en telefoon.</p>
-								</div>
-							</li>
-							<li>
-								<div class="item">
-									<div class="item_top">
-										<h5>Client-ICT Groep</h5>
-										<span>( 11/2017 — 08/2019 )</span>
-									</div>
-									<h3>Junior Support Engineer</h3>
-									<p>Netwerk – Systeem engineer, klanten helpen via computer en telefoon.</p>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<!-- /CV: Experience Section -->
+                <div class="progress_item" data-value="55">
+                  <div class="item_in">
+                    <h3 class="progress_title">PHP</h3>
+                    <span class="progress_percent"></span>
+                    <div class="progress_bg"></div>
+                  </div>
+                </div>
 
-				<!-- CV: Skills Section -->
-				<section id="cv_skills">
-					<div class="section_title">
-						<h3>Skills</h3>
-					</div>
-					<div class="fn_cs_progress_bar">
+                <div class="progress_item" data-value="30">
+                  <div class="item_in">
+                    <h3 class="progress_title">Python</h3>
+                    <span class="progress_percent"></span>
+                    <div class="progress_bg"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- /CV: Skills Section -->
 
-						<div class="progress_item" data-value="90">
-							<div class="item_in">
-								<h3 class="progress_title">Java</h3>
-								<span class="progress_percent"></span>
-								<div class="progress_bg"></div>
-							</div>
-						</div>
+            <!-- CV: Portfolio Section-->
+            <section id="cv_portfolio">
+              <div class="section_title">
+                <h3>Portfolio</h3>
+              </div>
 
-						<div class="progress_item" data-value="85">
-							<div class="item_in">
-								<h3 class="progress_title">C#</h3>
-								<span class="progress_percent"></span>
-								<div class="progress_bg"></div>
-							</div>
-						</div>
+              <!-- Portfolio Shortcode -->
+              <div class="fn_cs_portfolio">
+                <!-- Portfolio Filter -->
+                <div class="portfolio_filter">
+                  <ul>
+                    <li>
+                      <a href="#" class="current" data-filter="*">All</a>
+                    </li>
+                    <li>
+                      <a href="#" data-filter=".seminaries">Seminaries</a>
+                    </li>
+                    <li>
+                      <a href="#" data-filter=".personaldevelopment"
+                        >Persoonlijke ontwikkeling</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" data-filter=".innovationroute"
+                        >Innovatieroutes</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- /Portfolio Filter -->
 
-						<div class="progress_item" data-value="80">
-							<div class="item_in">
-								<h3 class="progress_title">TypeScript</h3>
-								<span class="progress_percent"></span>
-								<div class="progress_bg"></div>
-							</div>
-						</div>
+                <!-- Portfolio List -->
+                <div class="portfolio_list">
+                  <ul class="gallery_zoom grid">
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/realdolmen.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Flexbox en Grid</h2>
+                            <h3>23/03/2021</h3>
+                            <span>Realdolmen</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/solita.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>iPaas</h2>
+                            <h3>30/03/2021</h3>
+                            <span>Solita</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/rccu.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>
+                              Uitdagingen in de wereld van e-forensics &
+                              cybercrime
+                            </h2>
+                            <h3>04/05/2021</h3>
+                            <span>RCCU</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/ordina.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>IT Security & Data Privacy</h2>
+                            <h3>11/05/2021</h3>
+                            <span>Ordina</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/accenture.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Cloud Native Development</h2>
+                            <h3>01/12/2021</h3>
+                            <span>Accenture</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/eurofins.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Docker</h2>
+                            <h3>08/12/2021</h3>
+                            <span>Eurofins</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/aca-it.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>AWS en Infrastructure As Code met Terraform</h2>
+                            <h3>15/12/2021</h3>
+                            <span>ACA-IT</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="seminaries grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/nviso.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Office Maldocs</h2>
+                            <h3>12/01/2022</h3>
+                            <span>NVISO</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="personaldevelopment grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/pxl.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Project week</h2>
+                            <h3>15/02/2021</h3>
+                            <span>PXL</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="personaldevelopment grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/pxl.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Feedback: The key to improvement</h2>
+                            <h3>16/03/2021</h3>
+                            <span>PXL</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="personaldevelopment grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/pxl.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Brein aan het werk, niet storen!</h2>
+                            <h3>16/03/2021</h3>
+                            <span>PXL</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="personaldevelopment grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/pxl.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>(Veer)Krachtige teams</h2>
+                            <h3>23/03/2021</h3>
+                            <span>PXL</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="innovationroute grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/aziri.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Betty Blocks</h2>
+                            <h3>07/10/2021</h3>
+                            <span>Aziri</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="innovationroute grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/brightfox.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Salesforce</h2>
+                            <h3>14/10/2021</h3>
+                            <span>Brightfox</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="innovationroute grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/iadvise.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Oracle Apex</h2>
+                            <h3>14/10/2021</h3>
+                            <span>iAdvise</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="innovationroute grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/apvine.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Outsystems</h2>
+                            <h3>21/10/2021</h3>
+                            <span>Apvine</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="innovationroute grid-item">
+                      <div class="inner">
+                        <div class="entry">
+                          <img src="img/thumb/42-34.jpg" alt="" />
+                          <div
+                            class="main"
+                            data-bg-img="img/portfolio/providit.jpg"
+                          ></div>
+                          <div class="mobile_title">
+                            <h2>Mendix Studio Pro</h2>
+                            <h3>01/12/2021</h3>
+                            <span>Providit</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /Portfolio List -->
+              </div>
+              <!-- /Portfolio Shortcode -->
+            </section>
+            <!-- /CV: Portfolio Section-->
 
-						<div class="progress_item" data-value="70">
-							<div class="item_in">
-								<h3 class="progress_title">JavaScript</h3>
-								<span class="progress_percent"></span>
-								<div class="progress_bg"></div>
-							</div>
-						</div>
+            <!-- CV: Testimonials -->
+            <section id="cv_testimonials">
+              <div class="section_title">
+                <h3>Referenties</h3>
+              </div>
 
-						<div class="progress_item" data-value="55">
-							<div class="item_in">
-								<h3 class="progress_title">PHP</h3>
-								<span class="progress_percent"></span>
-								<div class="progress_bg"></div>
-							</div>
-						</div>
+              <div class="fn_cs_testimonials">
+                <ul>
+                  <li>
+                    <div class="item">
+                      <div class="item_left">
+                        <p>
+                          Ralph Magnette #Erkenning Geweldig werk geleverd en
+                          #100%Gegeven
+                        </p>
+                      </div>
+                      <div class="item_right">
+                        <div class="t_ava">
+                          <div
+                            class="ava_in"
+                            data-bg-img="img/testimonials/erkenning.jpg"
+                          ></div>
+                        </div>
+                        <div class="t_name">
+                          <p>LinkedIn referentie</p>
+                        </div>
+                        <div class="t_rating" data-stars="5">
+                          <div class="rating_in">
+                            <div class="rating_active">
+                              <img
+                                src="svg/five-stars.svg"
+                                alt=""
+                                class="fn__svg"
+                              />
+                            </div>
+                            <div class="rating_regular">
+                              <img
+                                src="svg/five-stars.svg"
+                                alt=""
+                                class="fn__svg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- /CV: Testimonials -->
 
-						<div class="progress_item" data-value="30">
-							<div class="item_in">
-								<h3 class="progress_title">Python</h3>
-								<span class="progress_percent"></span>
-								<div class="progress_bg"></div>
-							</div>
-						</div>
+            <section id="contact" class="section_contact">
+              <div class="section_title">
+                <h3>Contacteer mij</h3>
+              </div>
+              <form
+                class="contact_form"
+                action="/"
+                method="post"
+                autocomplete="off"
+                data-email="ralphmagnette@hotmail.com"
+              >
+                <!--
+							Don't remove below code in avoid to work contact form properly.
+							You can chance dat-success value with your one. It will be used when user will try to contact via contact form and will get success message.
+						-->
+                <div
+                  class="success"
+                  data-success="U bericht is goed ontvangen, ik neem zo snel mogelijk contact met u op."
+                ></div>
+                <div class="empty_notice">
+                  <span>Alle verplichten velden invullen!</span>
+                </div>
+                <!-- -->
 
-					</div>
-				</section>
-				<!-- /CV: Skills Section -->
-				
-				<!-- CV: Portfolio Section-->
-				<section id="cv_portfolio">
-					<div class="section_title">
-						<h3>Portfolio</h3>
-					</div>
-					
-					<!-- Portfolio Shortcode -->
-					<div class="fn_cs_portfolio">
-					
-						<!-- Portfolio Filter -->
-						<div class="portfolio_filter">
-							<ul>
-								<li><a href="#" class="current" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".seminaries">Seminaries</a></li>
-								<li><a href="#" data-filter=".popsessies">POP sessies</a></li>
-								<li><a href="#" data-filter=".innovatieroutes">Innovatie routes</a></li>
-							</ul>
-						</div>
-						<!-- /Portfolio Filter -->
-						
-						<!-- Portfolio List -->
-						<div class="portfolio_list">
-							<ul class="gallery_zoom grid">
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/realdolmen.jpg"></div>
-											<div class="mobile_title">
-												<h2>Flexbox en Grid</h2>
-												<h3>23/03/2021</h3>
-												<span>Realdolmen</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/solita.jpg"></div>
-											<div class="mobile_title">
-												<h2>iPaas</h2>
-												<h3>30/03/2021</h3>
-												<span>Solita</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/rccu.jpg"></div>
-											<div class="mobile_title">
-												<h2>Uitdagingen in de wereld van e-forensics & cybercrime</h2>
-												<h3>04/05/2021</h3>
-												<span>RCCU</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/ordina.jpg"></div>
-											<div class="mobile_title">
-												<h2>IT Security & Data Privacy</h2>
-												<h3>11/05/2021</h3>
-												<span>Ordina</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/accenture.jpg"></div>
-											<div class="mobile_title">
-												<h2>Cloud Native Development</h2>
-												<h3>01/12/2021</h3>
-												<span>Accenture</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/eurofins.jpg"></div>
-											<div class="mobile_title">
-												<h2>Docker</h2>
-												<h3>08/12/2021</h3>
-												<span>Eurofins</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/aca-it.jpg"></div>
-											<div class="mobile_title">
-												<h2>AWS en Infrastructure As Code met Terraform</h2>
-												<h3>15/12/2021</h3>
-												<span>ACA-IT</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="popup grid-item">
-									<div class="inner">
-										<div class="entry">
-											<img src="img/thumb/42-34.jpg" alt="" />
-											<div class="main" data-bg-img="img/portfolio/nviso.jpg"></div>
-											<div class="mobile_title">
-												<h2>Office Maldocs</h2>
-												<h3>12/01/2022</h3>
-												<span>NVISO</span>
-											</div>
-										</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<!-- /Portfolio List -->
-						
-					</div>
-					<!-- /Portfolio Shortcode -->
-					
-				</section>
-				<!-- /CV: Portfolio Section-->
+                <div class="items_wrap">
+                  <div class="items">
+                    <div class="item half">
+                      <div class="input_wrapper">
+                        <input id="name" type="text" placeholder="Naam *" />
+                      </div>
+                    </div>
+                    <div class="item half">
+                      <div class="input_wrapper">
+                        <input id="email" type="email" placeholder="Email *" />
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="input_wrapper">
+                        <input id="phone" type="text" placeholder="Telefoon" />
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="input_wrapper">
+                        <textarea id="message" placeholder="Bericht"></textarea>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <a id="send_message" href="#">Verstuur bericht</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </section>
+          </div>
+          <!-- /CV Content Side -->
+        </div>
+        <!-- CV Inner -->
+      </div>
+      <!-- /Modal CV Card -->
+    </div>
 
-				<!-- CV: Testimonials -->
-				<section id="cv_testimonials">
-					<div class="section_title">
-						<h3>Referenties</h3>
-					</div>
-
-					<div class="fn_cs_testimonials">
-						<ul>
-							<li>
-								<div class="item">
-									<div class="item_left">
-										<p>Ralph Magnette #Erkenning Geweldig werk geleverd en #100%Gegeven</p>
-									</div>
-									<div class="item_right">
-										<div class="t_ava">
-											<div class="ava_in" data-bg-img="img/testimonials/erkenning.jpg"></div>
-										</div>
-										<div class="t_name">
-											<p>LinkedIn referentie</p>
-										</div>
-										<div class="t_rating" data-stars="5">
-											<div class="rating_in">
-												<div class="rating_active"><img src="svg/five-stars.svg" alt="" class="fn__svg"></div>
-												<div class="rating_regular"><img src="svg/five-stars.svg" alt="" class="fn__svg"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</section>
-				<!-- /CV: Testimonials -->
-
-			</div>
-			<!-- /CV Content Side -->
-		</div>
-		<!-- CV Inner -->
-	</div>
-	<!-- /Modal CV Card -->
-</div>
-
-<!-- Scripts -->
-<script type="text/javascript" src="js/jquery.js?ver=4"></script>
-<script type="text/javascript" src="js/isotope.js"></script>
-<script type="text/javascript" src="js/magnific.js"></script>
-<script type="text/javascript" src="js/animated-headlines.js?ver=4"></script>
-<script type="text/javascript" src="js/waypoints.js?ver=4"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
-<script type="text/javascript" src="js/init.js?ver=4"></script>
-<!-- /Scripts -->
-
-</body>
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery.js?ver=4"></script>
+    <script type="text/javascript" src="js/isotope.js"></script>
+    <script type="text/javascript" src="js/magnific.js"></script>
+    <script
+      type="text/javascript"
+      src="js/animated-headlines.js?ver=4"
+    ></script>
+    <script type="text/javascript" src="js/waypoints.js?ver=4"></script>
+    <!--[if lt IE 10]>
+      <script type="text/javascript" src="js/ie8.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/init.js?ver=4"></script>
+    <!-- /Scripts -->
+  </body>
 </html>

@@ -1105,7 +1105,7 @@ body.resume-opened .deebo_fn__cv .cv__bg2{
 	left: 0px;
 	right: 0px;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
     transform: scale(1) translateZ(0);
 	
